@@ -25,11 +25,7 @@
 <body>
     {% include nav.html %}
     {% include header.html %}
-    {% if content != "" %}
-    <section class="section">
-        {{ content }}
-    </section>
-    {% endif %}
+    {{ content }}
     <!-- {% include footer.html %} -->
 </body>
 

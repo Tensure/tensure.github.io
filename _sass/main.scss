@@ -10,6 +10,7 @@ $eggplant: #171334;
 $teal: #53c0a5;
 $purple: #8766ac;
 $blue: #468ac9;
+$light: #eeeeee;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -17,6 +18,7 @@ $primary: $teal;
 $dark: $eggplant;
 
 // Update some of Bulma's component variables
+$body-background-color: $dark;
 
 .has-bg-img { background: url('/assets/tensure_LinkedIn_cover_1-01.png')center center; background-size:cover; }
 
@@ -24,3 +26,5 @@ $dark: $eggplant;
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
