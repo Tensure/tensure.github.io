@@ -1,0 +1,24 @@
+{
+  "name": "tensure.github.io",
+  "version": "0.0.1",
+  "description": "Tensure's initial website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tensure/tensure.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tensure/tensure.github.io/issues"
+  },
+  "homepage": "https://github.com/Tensure/tensure.github.io#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.0"
+  }
+}

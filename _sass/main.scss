@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$fa-font-path: "/assets/webfonts";
+
+// Set your brand colors
+$eggplant: #171334;
+$teal: #53c0a5;
+$purple: #8766ac;
+$blue: #468ac9;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $teal;
+$dark: $eggplant;
+
+// Update some of Bulma's component variables
+
+.has-bg-img { background: url('/assets/tensure_LinkedIn_cover_1-01.png')center center; background-size:cover; }
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
